@@ -1,0 +1,29 @@
+{
+  "name": "hubot-elb",
+  "version": "0.0.0",
+  "description": "Interact with AWS Elastic Load Balancer",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markhuge/hubot-elb.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "ELB",
+    "AWS"
+  ],
+  "author": "Mark Wilkerson <mark@segfawlt.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markhuge/hubot-elb/issues"
+  },
+  "homepage": "https://github.com/markhuge/hubot-elb",
+  "dependencies": {
+    "aws-sdk-sugar": "^0.1.2",
+    "lodash.merge": "^3.0.1"
+  }
+}
