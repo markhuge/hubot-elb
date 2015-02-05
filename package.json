@@ -1,6 +1,6 @@
 {
   "name": "hubot-elb",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Interact with AWS Elastic Load Balancer",
   "main": "index.coffee",
   "scripts": {
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/markhuge/hubot-elb",
   "dependencies": {
     "aws-sdk-sugar": "^0.1.2",
-    "lodash.merge": "^3.0.1"
+    "lodash.merge": "^3.0.1",
+    "through2": "^0.6.3"
   }
 }
